@@ -144,26 +144,3 @@ Your project must use a modular design, i.e., you must provide at least the foll
 5.	a makefile which compiles all modules and links them into the executable named dijkstra.
 For each module other than the main program, you should have a header file which specifies the data structures and the prototypes of the functions in the module, and a source file which implements all of the functions specified in the header file.
 
-3	A Study of Graph Characteristics
-In this project we represented the graph using adjacency lists.
-A dense graph is a graph G = (V, E) in which the number of edges is close to the maximal number of edges. The opposite, a graph with only a few edges, is a sparse graph.
-The graph density of simple graphs is defined to be the ratio of the number of edges E with respect to the maximum possible edges. For undirected simple graphs, the graph density D is:
- 
-D = |E|
-2
- 
-=	2|E|	.
-|V |(|V | − 1)
- 
-For directed simple graphs the maximum possible edges is twice that of undirected graphs to account for the direction, so the density is:
- 
-D =  |E|
-2
- 
-=	|E|	.
-|V |(|V | − 1)
- 
-Compute the density of the graphs, directed and undirected, used in our test cases and summarize the results in your report. Are adjacency lists the better representation for the graphs used in this project, or would an adjacency matrix be a better choice? Briefly explain, using space complexity of the representation to justify your argument.
-Compute a depth-first search (DFS) of each graph used in our test cases; see 22.3 of our textbook. Start the DFS at vertex 1, always visit vertices in numerical order, and count the number of trees added to the depth-first forest. Summarize the count obtained for each graph in your report.
-Do you think a variant of Dijkstra’s algorithm with source vertex s could take advantage of the results of a DFS starting from s? If so, describe how and under what circumstances. If not, why not? Briefly explain your answer.
-
