@@ -1,4 +1,4 @@
-In your second programming project, you will expand your first project. As in the case of the first programming project, it should be implemented in C++, on a Linux platform such as general.asu.edu. Your program will be graded on Gradescope, which uses a Linux platform. You will continue to have modular design, provide a Makefile to compile various modules to generate the executable file named run. Among other things, you need to have
+you will expand your first project. As in the case of the first programming project, it should be implemented in C++, on a Linux platform such as general.asu.edu. Your program will be graded on Gradescope, which uses a Linux platform. You will continue to have modular design, provide a Makefile to compile various modules to generate the executable file named run. Among other things, you need to have
 1.	a main program, which coordinates all other modules;
 2.	a module that provides utility services including command line interpretation;
 3.	a module that implements the min-heap data structure (all heap functions);
