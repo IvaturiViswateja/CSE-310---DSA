@@ -1,4 +1,4 @@
-This is your first programming project. It should be implemented in C++, on a Linux platform such as general.asu.edu. Your program will be graded on Gradescope, which uses a Linux platform. You will perform modular design, provide a Makefile to compile various modules to generate the executable file named run. Among other things, you need to have
+ It should be implemented in C++, on a Linux platform such as general.asu.edu. You will perform modular design, provide a Makefile to compile various modules to generate the executable file named run. Among other things, you need to have
 1.	a main program, which coordinates all other modules;
 
 2.	a module that provides utility services including command line interpretation;
